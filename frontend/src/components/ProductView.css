@@ -1,0 +1,147 @@
+.productview {
+    background-color: #fefeff;
+    display: flex;
+    min-width: 1016px;
+    padding: 10px;
+    color: #0F1111;
+    font-size : 14px;
+    line-height: 20px;
+}
+
+.image {
+    padding : 10px 0;
+    margin: 30px 10px;
+    align-self : center;
+    align-items: center;
+    width: 50%;
+    min-width: 500px;
+    display: flex;
+}
+
+.imageop {
+    margin : 5px;
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    padding: 5px;
+    border: 1px solid #bfc0c5;
+    border-radius: 5px;
+}
+
+.imageop:active {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    padding: 10px;
+}
+
+.disp {
+    width: 650px;
+    height: 500px;
+    object-fit: contain;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    min-width: 300px;
+    height: 100%;
+    padding: 10px 0;
+    margin: 30px 10px;
+    color : #0f1218;
+}
+
+.name {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.ratrev {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.rating, .numrev {
+    padding: 0 5px;
+} 
+
+.star {
+    color: #fea21c;
+    font-size : 15px !important; 
+}
+
+.price {
+    padding: 10px;
+    font-size : 30px;
+    color : #0f1218;
+}
+
+.desc {
+    padding: 10px;
+}
+
+.descli {
+    /* white-space: pre-wrap; */
+    list-style: outside;
+    font-size : 14px;
+    line-height: 20px;
+}
+
+.order {
+    width: 10%;
+    height: 100%;
+    min-width: 200px;
+    margin: 30px 10px;
+    padding: 5px 20px 20px 20px;
+    /* flex: 1 1 20%; */
+    border: 1px solid #dbdcdc;
+    border-radius: 10px;
+}
+
+.quantity {
+    display: flex;
+    padding: 10px 0;
+}
+
+.quanbtnl {
+    width: 20px;
+    border: 1px solid #dbdcdc;
+    border-radius: 5px 0 0 5px;
+}
+
+.quanbtnr {
+    width: 20px;
+    border: 1px solid #dbdcdc;
+    border-radius: 0 5px 5px 0;
+}
+
+.addcart {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #FCD200;
+    border-radius: 20px;
+    background: #FFD814;
+    cursor: pointer;
+}
+
+.buynow {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #FF8F00;
+    border-radius: 20px;
+    background: #FFA41C;
+    cursor: pointer;
+}
+
+#link {
+    color: #007185;
+}

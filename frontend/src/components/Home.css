@@ -1,0 +1,79 @@
+.home {
+    margin: 0;
+    width: max(250px, 98.92vw);
+}
+
+.banner {
+    overflow: hidden;
+    margin: 0;
+    z-index: -1;
+    /* margin-bottom: -150px; */
+    display: flex;
+    width: max(250px, 98.92vw);
+}
+
+.banner_image {
+    position: relative;
+    width: max(250px, 98.92vw);
+    display: flex;
+    margin: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 1s ease-in-out;
+}
+
+.banner_images {
+    width: max(250px, 98.92vw);
+    object-fit: cover;
+    mask-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 0, 0), rgba(255, 255, 255, 0));
+    z-index: -1;
+}
+
+.bannerButtonLeft {
+    left: 0;
+    position: absolute;
+    z-index: 1;
+    width: min(8vw, 100px);
+    height: min(25vw, 250px);
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    cursor: pointer;
+}
+
+.bannerButtonRight {
+    right: 0;
+    position: absolute;
+    z-index: 1;
+    width: min(8vw, 100px);
+    height: min(25vw, 250px);
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    cursor: pointer;
+}
+
+.arrowicon {
+    font-size: 3vw !important;
+}
+
+.bannerButtonLeft:active, .bannerButtonRight:active {
+    border: min(0.1vw, 1px) solid blue;
+}
+
+.swiper {
+    align-items: center;
+    z-index: -1;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    top: 25% !important;
+}
+
+.Home_products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 1;
+    position: absolute;
+    top: min(35vw, 400px);
+    width: max(250px, 98.92vw);
+}
